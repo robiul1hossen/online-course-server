@@ -1,12 +1,10 @@
 const express = require("express");
 var cors = require("cors");
-const jwt = require("jsonwebtoken");
-const { MongoClient, ServerApiVersion, ObjectId } = require("mongodb");
 require("dotenv").config();
 const app = express();
 const port = process.env.PORT || 3000;
 
-const courseData = require("./courseDetails.json");
+const jwt = require("jsonwebtoken");
 
 app.use(cors());
 app.use(express.json());
@@ -53,6 +51,7 @@ app.get("/", (req, res) => {
   res.send("hello world");
 });
 
+const { MongoClient, ServerApiVersion, ObjectId } = require("mongodb");
 const uri = `mongodb+srv://${process.env.DB_USer}:${process.env.DB_PASS}@cluster0.dowmgti.mongodb.net/?retryWrites=true&w=majority`;
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 const client = new MongoClient(uri, {
@@ -82,7 +81,7 @@ async function run() {
     });
 
     // creating users
-    app.post("/users", verifyJWT, async (req, res) => {
+    app.post("/users", async (req, res) => {
       const users = req.body;
       const query = { email: users.email };
 
@@ -137,7 +136,7 @@ async function run() {
     });
 
     // get course from cart
-    app.get("/carts", verifyJWT, async (req, res) => {
+    app.get("/carts", async (req, res) => {
       const email = req.query.email;
       if (!email) {
         return res.send([]);
