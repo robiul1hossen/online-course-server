@@ -1,0 +1,34 @@
+[
+    {
+       
+        "instructorName": "John Doe",
+        "title": "Introduction to Programming",
+        "description": "A beginner-friendly course to learn the fundamentals of programming.",
+        "desc": "Are you interested in learning how to code but don't know where to start? This course is your gateway into the world of programming. Whether you're a complete beginner or have some basic knowledge, this course will provide you with a solid foundation in programming concepts and techniques.\n\nThroughout this comprehensive course, you will learn the fundamentals of programming, including variables, data types, control structures, and functions. We'll also explore essential programming languages like Python, Java, and JavaScript, giving you a well-rounded understanding of the programming landscape.\n\nOur experienced instructor, John Doe, will guide you through each step of the learning process. With a practical and hands-on approach, you'll not only grasp the theory but also gain valuable coding skills that you can apply to real-world projects.\n\nJoin us in this exciting journey into the world of programming and unlock a world of opportunities. Whether you want to build websites, create mobile apps, or pursue a career in data science, this course is your first step toward achieving your coding goals.\n\nBy the end of this course, you'll have the confidence and knowledge to write your own programs and start exploring the endless possibilities of the coding universe.\n",
+        "price": 159,
+        "rating": 4.5,
+        "schedule": "09PM - 11PM",
+        "syllabus": "HTML,CSS,Bootstrap,JavaScript",
+        "total_assignment": 12,
+        "assignment_duration": "2days",
+        "certificate": "After completing 12 Assignment with 70% marks",
+        "rewards": "Job Hunting Programme after completing the coures",
+        "img": "https://i.ibb.co/6XsP283/html-css.jpg"
+    },
+    {
+       
+        "instructorName": "John Leo",
+        "title": "Introduction to Web Development",
+        "description": "A beginner-friendly course to learn the fundamentals of Web Development.",
+        "desc": "Embark on your journey into the exciting world of web development with our 'Introduction to Web Development' course. Whether you're an aspiring web developer, a designer looking to expand your skills, or simply curious about how websites work, this course is your gateway to the digital realm.\n\nUnder the expert guidance of our instructor, Emily Smith, you'll delve into the core concepts and technologies that power the modern web. From HTML and CSS, the building blocks of web design, to JavaScript for interactivity and user experience, this course covers it all.\n\nYou'll gain hands-on experience creating web pages and responsive designs, learn the art of styling and layout, and understand how to bring your creations to life with dynamic functionality. By the end of this course, you'll be equipped with the skills to build your own websites, experiment with web apps, and have a solid foundation for further web development studies.\n\nJoin us and unlock the potential of the digital world. Whether you dream of creating stunning portfolios, launching your online business, or pursuing a career in web development, 'Introduction to Web Development' is your first step toward making those dreams a reality.\n",
+        "price": 199,
+        "rating": 4.9,
+       "schedule": "09PM - 11PM",
+        "syllabus": "HTML,CSS,Bootstrap,JavaScript",
+        "Total_assignment": 12,
+        "assignment_duration": "2days",
+        "certificate": "After completing 12 Assignment with 70% marks",
+        "rewards": "Job Hunting Programme after completing the coures",
+        "img": "https://i.ibb.co/9cLSj1V/development-opportunity-strategy-improvement-word.jpg"
+    }
+]

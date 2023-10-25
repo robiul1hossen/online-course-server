@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "instructorName": "John Doe",
+        "title": "Introduction to Programming",
+        "description": "A beginner-friendly course to learn the fundamentals of programming.",
+        "rating": 4.5,
+        "img": "https://i.ibb.co/6XsP283/html-css.jpg"
+    },
+    {
+        "id": 2,
+        "instructorName": "John Leo",
+        "title": "Introduction to Web Development",
+        "description": "A beginner-friendly course to learn the fundamentals of Web Development.",
+        "rating": 4.9,
+        "img": "https://i.ibb.co/9cLSj1V/development-opportunity-strategy-improvement-word.jpg"
+    }
+]
